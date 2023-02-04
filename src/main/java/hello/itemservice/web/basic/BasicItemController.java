@@ -37,7 +37,7 @@ public class BasicItemController {
     }
 
     @PostMapping("/add")
-    public String save(
+    public String addItemV1(
             @RequestParam String itemName,
             @RequestParam int price,
             @RequestParam Integer quantity,
