@@ -63,6 +63,12 @@ public class BasicItemController {
         return "basic/editForm";
     }
 
+    @PostMapping("/{itemId}/edit")
+    public String edit(@ModelAttribute Item item) {
+        itemRepository.save(item);
+        return "basic/editForm";
+    }
+
     /**
      * 테스트용 데이터 추가
      */
