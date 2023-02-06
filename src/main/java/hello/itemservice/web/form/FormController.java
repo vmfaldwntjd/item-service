@@ -33,7 +33,7 @@ public class FormController {
 
     @GetMapping("/add")
     public String addForm(Model model) {
-        model.addAttribute("model", new Item());
+        model.addAttribute("item", new Item());
         return "form/addForm";
     }
 
