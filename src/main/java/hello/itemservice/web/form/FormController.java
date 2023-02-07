@@ -24,7 +24,7 @@ public class FormController {
         Map<String, String> regions = new LinkedHashMap<>(); //순서 보장
         regions.put("SEOUL", "서울");
         regions.put("BUSAN", "부산");
-        regions.put("BUSAN", "부산");
+        regions.put("JEJU", "제주");
         return regions;
     }
 
